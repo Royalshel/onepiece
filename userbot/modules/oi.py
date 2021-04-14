@@ -42,7 +42,6 @@ async def typewriter(typew):
 # Create by myself @localheart
 
 
-
 @register(outgoing=True, pattern='^.bro(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)

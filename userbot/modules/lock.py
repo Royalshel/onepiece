@@ -27,34 +27,24 @@ async def locks(event):
     changeinfo = None
     if input_str == "msg":
         msg = True
-        what = "Pesan"
     elif input_str == "media":
         media = True
-        what = "Media"
     elif input_str == "sticker":
         sticker = True
-        what = "Sticker"
     elif input_str == "gif":
         gif = True
-        what = "GIF"
     elif input_str == "game":
         gamee = True
-        what = "Game"
     elif input_str == "inline":
         ainline = True
-        what = "Inline Bot"
     elif input_str == "poll":
         gpoll = True
-        what = "Poll"
     elif input_str == "invite":
         adduser = True
-        what = "Invite"
     elif input_str == "pin":
         cpin = True
-        what = "Pin"
     elif input_str == "info":
         changeinfo = True
-        what = "Info"
     elif input_str == "all":
         msg = True
         media = True
@@ -66,7 +56,6 @@ async def locks(event):
         adduser = True
         cpin = True
         changeinfo = True
-        what = "Semuanya"
     else:
         if not input_str:
             await event.edit("`Sensei, Apa Yang Harus Saya Kunci? ヅ`")

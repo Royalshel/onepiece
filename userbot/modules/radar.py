@@ -53,7 +53,7 @@ def user_full_name(user):
     return " ".join(names)
 
 
-# Shadow 
+# Shadow
 CMD_HELP.update({
     "deteksi":
         "`.deteksi`\
