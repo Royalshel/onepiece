@@ -42,6 +42,6 @@ Repo Yang Fork [Shadow](https://t.me/coklintoud)
 
 * HEROKU:
 <p align="center">
-   <a href = "https://heroku.com/deploy?template=https://github.com/aldoaprilyan3/One-Piece/tree/Lord-Userbot"><img src="https://media1.tenor.com/images/40f0f188f6c50b5bf8eccc5e0fa3f2a2/tenor.gif?itemid=16820808" alt="Press to Takeoff" width="660"></a>
+   <a href = "https://heroku.com/deploy?template=https://github.com/aldoaprilyan3/One-Piece/tree/One-Piece"><img src="https://media1.tenor.com/images/40f0f188f6c50b5bf8eccc5e0fa3f2a2/tenor.gif?itemid=16820808" alt="Press to Takeoff" width="660"></a>
 </p>
 <br>
