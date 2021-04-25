@@ -14,7 +14,7 @@ import time
 from datetime import datetime
 import psutil
 
-from userbot import ALIVE_LOGO, ALIVE_NAME, BOT_VER, CMD_HELP, LORD_TEKS_KUSTOM, StartTime, bot
+from userbot import ALIVE_LOGO, ALIVE_NAME, BOT_VER, CMD_HELP, OP_TEKS_KUSTOM, StartTime, bot
 from userbot.events import register
 
 
@@ -224,7 +224,7 @@ async def amireallyalive(alive):
     await get_readable_time((time.time() - StartTime))
     output = (
         f" **                ☬𝑶𝑵𝑬 𝑷𝑰𝑬𝑪𝑬 ೃ༄             ** \n"
-        f"\n__**{LORD_TEKS_KUSTOM}**__\n"
+        f"\n__**{OP_TEKS_KUSTOM}**__\n"
         f"**────────✧❁✧────────**\n"
         f"**ᖫ ᴍʏ ꜱᴇɴꜱᴇɪ** \n"
         f" ◄► `{DEFAULTUSER}` \n"
@@ -296,16 +296,16 @@ async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f"**┏━━━━━━༻❁༺━━━━━━┓**\n**               𝑶𝑵𝑬 𝑷𝑰𝑬𝑪𝑬            **\n**┗━━━━━━༻❁༺━━━━━━┛**\n\n"
+        f"**┏━━━━━━༻❁༺━━━━━━┓**\n**             𝗢 𝗡 𝗘 𝗣 𝗜 𝗘 𝗖 𝗘            **\n**┗━━━━━━༻❁༺━━━━━━┛**\n\n"
         f"𒄬 **ꜱᴇɴꜱᴇɪ:** \n"
-        f"𒁂 `{DEFAULTUSER}` \n"
+        f"☯ `{DEFAULTUSER}` \n"
         f"𒄬 **It's me:** \n"
-        f"𒁂 `@{user.username}` \n\n"
-        f"**𒈔𝙾𝚗𝚎 𝙿𝚒𝚎𝚌𝚎 𝙰𝚍𝚊𝚕𝚊𝚑 𝚄𝚜𝚎𝚛𝚋𝚘𝚝 𝙺𝚑𝚞𝚜𝚞𝚜 **"
-        f"**𝚈𝚊𝚗𝚐 𝙳𝚒𝚐𝚞𝚗𝚊𝚔𝚊𝚗 𝚄𝚗𝚝𝚞𝚔 𝙹𝚒𝚔𝚊𝚕𝚊𝚞 𝙰𝚗𝚍𝚊 𝙱𝚘𝚜𝚊𝚗** "
-        f"**𝙳𝚒 𝚃𝚎𝚕𝚎𝚐𝚛𝚊𝚖** **𝚅𝚎𝚛𝚜𝚒 𝙱𝚘𝚝 𝚈𝚊𝚗𝚐 𝙳𝚒𝚐𝚞𝚗𝚊𝚔𝚊𝚗** `{BOT_VER}` "
-        f"**𝙹𝚞𝚖𝚕𝚊𝚑 𝙼𝚘𝚍𝚞𝚕 𝙳𝚊𝚕𝚊𝚖 𝙾𝚗𝚎 𝙿𝚒𝚎𝚌𝚎** `{len(modules)}` \n\n"
-        f"𒆙 **[ᴏɴᴇ ᴘɪᴇᴄᴇ](https://github.com/aldoaprilyan3/One-Piece)\n𒆙 **[ɢʀᴏᴜᴘ](t.me/follars)\n𒆙 [ꜱʜᴀᴅᴏᴡ](t.me/coklintoud)\n")
+        f"☯ `@{user.username}` \n\n"
+        f"➢ ᴏɴᴇ ᴘɪᴇᴄᴇ ᴀᴅᴀʟᴀʜ ᴜꜱᴇʀʙᴏᴛ ᴋʜᴜꜱᴜꜱ "
+        f"ʏᴀɴɢ ᴅɪ ɢᴜɴᴀᴋᴀɴ ᴜɴᴛᴜᴋ ᴊɪᴋᴀʟᴀᴜ ᴀɴᴅᴀ ʙᴏꜱᴀɴ"
+        f"ᴅɪᴛᴇʟᴇɢʀᴀᴍ ᴠᴇʀꜱɪ ʙᴏᴛ ʏᴀɴɢ ᴅɪɢᴜɴᴀᴋᴀɴ `{BOT_VER}` "
+        f"ᴊᴜᴍʟᴀʜ ᴍᴏᴅᴜʟᴇɴʏᴀ ᴛᴇʀᴅᴀᴘᴀᴛ `{len(modules)}`ᴍᴏᴅᴜʟᴇɴʏᴀ \n\n"
+        f"♜ **[ᴏɴᴇ ᴘɪᴇᴄᴇ](https://github.com/aldoaprilyan3/One-Piece)\n♜ **[ꜱᴜᴘᴘᴏʀᴛ](t.me/xthunderlol)\n♜ [ꜱʜᴀᴅᴏᴡ](t.me/RhitoSakai)\n")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
