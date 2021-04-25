@@ -100,7 +100,7 @@
     },
     "OP_TEKS_KUSTOM": {
       "description": "Kustom Pesan Alive Mu Untuk Perintah .op (Isi Terserah)",
-      "required": true
+      "required": false
     },
     "S_PACK_NAME": {
       "description": "Nama Sticker Pack Mu",
