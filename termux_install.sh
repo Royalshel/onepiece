@@ -35,7 +35,7 @@ pkg update && pkg upgrade -y
 pkg install clang curl git libcrypt libffi libiconv libjpeg* libjpeg-turbo libwebp libxml2 libxslt make ndk-sysroot openssl postgresql python readline wget zlib -y
 
 git clone https://github.com/aldoaprilyan3/One-Piece.git
-cd OpenUserBot
+cd One-Piece
 
 pip install --upgrade pip setuptools
 pip install -r requirements.txt
