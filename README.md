@@ -35,6 +35,8 @@ Repo Yang Fork [Shadow](https://t.me/coklintoud)
 
   > Next Tekan Tombol Deploy Dibawah
 
+  > Intinya Isi Aja Yang required
+
   > Isi Datanya Lalu Tekan Deploy Lagi
 
   > Terakhir Hidupkan Dyno Lalu Check Logs (settings -> view logs) Jika Berhasil Enjoy :)
