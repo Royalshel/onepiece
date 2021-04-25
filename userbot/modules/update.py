@@ -115,7 +115,7 @@ async def update(event, repo, ups_rem, ac_br):
     except GitCommandError:
         repo.git.reset("--hard", "FETCH_HEAD")
     await update_requirements()
-    await event.edit('`**One Piece** Berhasil Di Update!`')
+    await event.edit('`One Piece Berhasil Di Update!`')
     await asyncio.sleep(1)
     await event.edit('`One Piece Di Restart....`')
     await asyncio.sleep(1)
