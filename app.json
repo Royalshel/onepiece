@@ -98,7 +98,7 @@
       "description": "Foto Untuk Alive Letakan Link Fotonya Di Bawah",
       "required": false
     },
-    "LORD_TEKS_KUSTOM": {
+    "OP_TEKS_KUSTOM": {
       "description": "Kustom Pesan Alive Mu Untuk Perintah .op (Isi Terserah)",
       "required": true
     },
