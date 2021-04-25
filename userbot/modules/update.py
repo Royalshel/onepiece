@@ -188,13 +188,13 @@ async def upstream(event):
 
     if changelog == '' and force_update is False:
         await event.edit(
-            f'\n`☠️ ᴏɴᴇ ᴘɪᴇᴄᴇ ☠️\n` sudah **versi terbaru**\n`BRANCH:`**{UPSTREAM_REPO_BRANCH}**\n')
+            f'\n**∆ One-Piece Sudah Versi Terbaru**\n')
         await asyncio.sleep(15)
         await event.delete()
         return repo.__del__()
 
     if conf is None and force_update is False:
-        changelog_str = f'ᴜᴘᴅᴀᴛᴇ ᴛᴇʀʙᴀʀᴜ ᴜɴᴛᴜᴋ ᴏɴᴇ ᴘɪᴇᴄᴇ ☠️  [{ac_br}]:\n\nPERUBAHAN:**\n`{changelog}`'
+        changelog_str = f'ᴜᴘᴅᴀᴛᴇ ᴛᴇʀʙᴀʀᴜ ᴜɴᴛᴜᴋ ᴏɴᴇ ᴘɪᴇᴄᴇ ☠️  [{ac_br}]:\n\nPERUBAHAN:\n`{changelog}`'
         if len(changelog_str) > 4096:
             await event.edit("`Changelog is too big, view the file to see it.`")
             file = open("output.txt", "w+")
@@ -232,9 +232,9 @@ async def upstream(event):
 CMD_HELP.update({
     'update':
     ".update"
-    "\nUsage: Checks if the main userbot repository has any updates and shows a changelog if so."
+    "\nUsage: Untuk Melihat Pembaruan Terbaru One-Piece."
     "\n\n.update now"
-    "\nUsage: Update your userbot, if there are any updates in your userbot repository."
+    "\nUsage: Memperbarui One-Piece."
     "\n\n.update deploy"
-    "\nUsage: Deploy your userbot at heroku, if there are any updates in your userbot repository."
+    "\nUsage: Memperbarui One-Piece Dengan Cara Deploy Ulang."
 })
