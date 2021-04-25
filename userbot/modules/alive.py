@@ -223,7 +223,7 @@ async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f" **                ☬𝑶𝑵𝑬 𝑷𝑰𝑬𝑪𝑬 ೃ༄             ** \n"
+        f" **               ℣ 𝐎 𝐍 𝐄 𝐏 𝐈 𝐄 𝐂 𝐄 ℘            ** \n"
         f"\n__**{OP_TEKS_KUSTOM}**__\n"
         f"**────────✧❁✧────────**\n"
         f"**ᖫ ᴍʏ ꜱᴇɴꜱᴇɪ** \n"
