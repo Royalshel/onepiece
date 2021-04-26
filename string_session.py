@@ -19,9 +19,9 @@ API_HASH = input("Letakan API_HASH here: ")
 with TelegramClient(StringSession(), API_KEY, API_HASH) as client:
     print("Check Telegram Save Message Mu Untuk Copy STRING_SESSION ")
     session_string = client.session.save()
-    saved_messages_template = """ Support @xthunderlol
+    saved_messages_template = """ Support @ xthunderlol
 
-<code>STRING_SESSION</code>: <code>{}</code>
+< code > STRING_SESSION < /code > : < code > {} < /code >
 
-⚠️ <i>SUPPORT @xthunderlol</i>""".format(session_string)
+⚠️ < i > SUPPORT @ xthunderlol < /i >""".format(session_string)
     client.send_message("me", saved_messages_template, parse_mode="html")
