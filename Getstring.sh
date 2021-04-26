@@ -1,6 +1,6 @@
 export LANG=C.UTF-8
 
-echo -e "\nChecking dependencies...\n"
+echo -e "\nMengecek Data...\n"
 
 if command -v python3 >/dev/null 2>&1 ; then
     echo -e "python3 found "
@@ -51,7 +51,7 @@ fi
 
 echo -e "\nUpgrading python pip\n"
 pip3 install --upgrade pip setuptools
-echo -e "\nInstalling telethon...\n"
+echo -e "\nMenginstall telethon...\n"
 pip3 install telethon
 sleep 2
 
@@ -59,7 +59,7 @@ if [ ! -e string_session.py ]; then
     echo -e "\nDownloading string_session.py\n"
     wget https://raw.githubusercontent.com/aldoaprilyan3/One-Piece/One-Piece/string_session.py
 
-    echo -e "\nRunning script...\n"
+    echo -e "\nMenjalankan Script...\n"
     sleep 1
     python3 string_session.py
 else
@@ -68,13 +68,13 @@ else
     python3 string_session.py
 fi
 
-echo -e "Do you want to cleanup your file?"
-echo -e "[1] cleanup: this delete string_session.py and this file"
-echo -e "[2] exit"
-echo -ne "\nEnter your choice[1-2]: "
+echo -e "Apakah Anda ingin membersihkan file Anda?"
+echo -e "[1] cleanup: hapus ini string_session.py dan ini "
+echo -e "[2] exit : dan ini untuk keluar saja namun tidak menghapus string"
+echo -ne "\nTentukan Pilihanmu[1-2]: "
 read choice
 if [ "$choice" = "1" ]; then
-    echo -e "Cleanup: removing file"
+    echo -e "Cleanup: menghapus file"
     rm -f string_session.py Getstring.sh
 elif [ "$choice" = "2" ]; then
     exit
