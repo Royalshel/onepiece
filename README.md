@@ -7,7 +7,7 @@
 <p align="center">&nbsp;</p>
 
 ### Repo One Piece
-Repo Yang Fork [Shadow](https://t.me/coklintoud) 
+Repo Yang Fork [Shadow](https://t.me/RhitoSakai) 
 
 
 ### STRING SESSION REPLIT
