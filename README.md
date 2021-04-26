@@ -18,6 +18,11 @@ Repo Yang Fork [Shadow](https://t.me/coklintoud)
 </p>
 <br>
 
+### or Run you termux
+```
+wget https://raw.githubusercontent.com/aldoaprilyan3/One-Piece/One-Piece/terminal_getstring.sh && bash terminal_getstring.sh
+```
+
 
 
   ### Read more
