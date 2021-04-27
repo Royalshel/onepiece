@@ -47,7 +47,7 @@ async def pingme(pong):
     await get_readable_time((time.time() - StartTime))
     start = datetime.now()
     await pong.edit("**★ PIM ★**")
-    await pong.edit("**☘️PIM ☘️**")
+    await pong.edit("**☘️ PIM ☘️**")
     await pong.edit("**⚡️ POM ⚡️**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
