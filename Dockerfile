@@ -4,7 +4,7 @@ FROM liualvinas24/docker:groovy
 #
 # Clone repo and prepare working directory
 #
-RUN git clone -b onepiece https://github.com/Royalshel/onepiece /root/userbot
+RUN git clone -b One-Piece https://github.com/Royalshel/onepiece /root/userbot
 RUN mkdir /root/userbot/.bin
 RUN pip install --upgrade pip setuptools
 WORKDIR /root/userbot
