@@ -296,12 +296,12 @@ async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f"**┏━━━━━━༻❁༺━━━━━━┓**\n**             𝗢 𝗡 𝗘 𝗣 𝗜 𝗘 𝗖 𝗘            **\n**┗━━━━━━༻❁༺━━━━━━┛**\n\n"
-        f"𒄬 **ꜱᴇɴꜱᴇɪ:** \n"
-        f"✯ `{DEFAULTUSER}` \n"
-        f"𒄬 **It's me:** \n"
-        f"✯ `@{user.username}` \n\n"
-        f"➢ ᴏɴᴇ ᴘɪᴇᴄᴇ ᴀᴅᴀʟᴀʜ ᴜꜱᴇʀʙᴏᴛ ᴋʜᴜꜱᴜꜱ "
+        f"**┏━━━━━━༻❁༺━━━━━━┓**\n**            ☠️ 𝗢 𝗡 𝗘 𝗣 𝗜 𝗘 𝗖 𝗘 ☠️           **\n**┗━━━━━━༻❁༺━━━━━━┛**\n\n"
+        f"➥ **ꜱᴇɴꜱᴇɪ:** \n"
+        f"🔥 `{DEFAULTUSER}` \n"
+        f"➥ **ɪᴅ:** \n"
+        f"🔥 `@{user.username}` \n\n"
+        f"𒈔 ᴏɴᴇ ᴘɪᴇᴄᴇ ᴀᴅᴀʟᴀʜ ᴜꜱᴇʀʙᴏᴛ ᴋʜᴜꜱᴜꜱ "
         f"ʏᴀɴɢ ᴅɪ ɢᴜɴᴀᴋᴀɴ ᴜɴᴛᴜᴋ ᴊɪᴋᴀʟᴀᴜ ᴀɴᴅᴀ ʙᴏꜱᴀɴ"
         f"ᴅɪᴛᴇʟᴇɢʀᴀᴍ ᴠᴇʀꜱɪ ʙᴏᴛ ʏᴀɴɢ ᴅɪɢᴜɴᴀᴋᴀɴ `{BOT_VER}` "
         f"ᴊᴜᴍʟᴀʜ ᴍᴏᴅᴜʟᴇɴʏᴀ ᴛᴇʀᴅᴀᴘᴀᴛ `{len(modules)}` ᴍᴏᴅᴜʟᴇ \n\n"
