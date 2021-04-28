@@ -11,6 +11,7 @@ from telethon import __version__, version
 import platform
 import sys
 import time
+from time import sleep
 from datetime import datetime
 import psutil
 
@@ -295,6 +296,8 @@ async def amireallyalive(alive):
 async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
+    await alive.edit("✨")
+    sleep(2)
     output = (
         f"**┏━━━━━━༻❁༺━━━━━━┓**\n**       ☠️ 𝗢 𝗡 𝗘 𝗣 𝗜 𝗘 𝗖 𝗘 ☠️           **\n**┗━━━━━━༻❁༺━━━━━━┛**\n\n"
         f"➥ **ꜱᴇɴꜱᴇɪ:** \n"
