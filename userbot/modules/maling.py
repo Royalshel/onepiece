@@ -242,7 +242,7 @@ async def kang(args):
                 await bot.send_read_acknowledge(conv.chat_id)
 
         await args.edit(
-            f"**Saya Sudah Berhasil Maling Stickernya Sensei, Tap** **[Stiker Sensei](t.me/addstickers/{packname})** **Untuk Melihat Hasil Curian Saya**",
+            f"**𝐈 𝐦𝐚𝐧𝐚𝐠𝐞𝐝 𝐭𝐨 𝐬𝐭𝐞𝐚𝐥 𝐭𝐡𝐞 𝐒𝐞𝐧𝐬𝐞𝐢 𝐬𝐭𝐢𝐜𝐤𝐞𝐫, 𝐭𝐚𝐩 𝐭𝐡𝐞** **[𝐒𝐞𝐧𝐬𝐞𝐢 𝐬𝐭𝐢𝐜𝐤𝐞𝐫](t.me/addstickers/{packname})** **𝐭𝐨 𝐬𝐞𝐞 𝐦𝐲 𝐥𝐨𝐨𝐭**",
             parse_mode="md",
         )
 
