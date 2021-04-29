@@ -51,9 +51,9 @@ async def pingme(pong):
     await pong.edit("**⚡️ POM ⚡️**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**➣ ʜᴇɴᴛᴀɪ** "
+    await pong.edit(f"**➣ 𝙺𝙸𝚁𝙰 ꖅ** "
                     f"\n  🔥 `%sms` \n"
-                    f"**➣ 𝚂𝙴𝙽𝚂𝙰𝙸** "
+                    f"**➣ 𝚂𝙷𝙸𝙽𝙸𝙶𝙰𝙼𝙸 ❛❜** "
                     f"\n  🔥`{ALIVE_NAME}` \n" % (duration))
 
 
@@ -65,10 +65,10 @@ async def pingme(pong):
     await pong.edit("`Love Ping..............`")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**🔥 𝚂𝙷𝙴𝙻 ♰**\n"
-                    f"🔥 **𝚇𝚙𝚒𝚗𝚐:** "
+    await pong.edit(f"**🔥◥ὦɧ 𝙺𝙸𝚁𝙰 ♰ ❛❜**\n"
+                    f"☫ **𝚇𝙿𝙸𝙽𝙶:** "
                     f"`%sms` \n"
-                    f"🔥 **𝚄𝚙 𝚝𝚒𝚖𝚎:** "
+                    f"☫ **𝚁𝙴𝙰𝚂𝙾𝙽:** "
                     f"`{uptime}` \n" % (duration))
 
 
@@ -98,12 +98,12 @@ async def pingme(pong):
     await pong.edit("**DUARRR!!!**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**🔥 ᴏɴᴇ ᴘɪᴇᴄᴇ ᴘɪɴɢ  ೃ༄**\n"
-                    f"✪ **𝙿𝚒𝚗𝚐:** "
+    await pong.edit(f"**✞ ❛❜ 𝙳𝙴𝙰𝚃𝙷 𝙽𝙾𝚃𝙴 𝙿𝙸𝙽𝙶 ೃ༄**\n"
+                    f"🔥✪ **𝙿𝙸𝙽𝙶:** "
                     f"`%sms` \n"
-                    f"✪ **𝚄𝚙𝚝𝚒𝚖𝚎:** "
+                    f"🔥✪ **𝚄𝙿 𝚃𝙸𝙼𝙴:** "
                     f"`{uptime}` \n"
-                    f"**✪ My ꜱᴇɴꜱᴇɪ:** `{ALIVE_NAME}`" % (duration))
+                    f"**🔥✪ 𝚂𝙷𝙸𝙽𝙸𝙶𝙰𝙼𝙸:** `{ALIVE_NAME}`" % (duration))
 
 
 @register(outgoing=True, pattern="^.speed$")
@@ -160,7 +160,7 @@ async def pingme(pong):
     await pong.edit("**𝚂𝚎𝚕𝚎𝚜𝚊𝚒.. **")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**ㅤㅤㅤ   𖤍  𝐎𝐍𝐄 𝐏𝐈𝐄𝐂𝐄  𖤍** \n **🔥 ══━━━━✥◈✥━━━━══ 🔥** \n**╔══════⋯⇋♤⇌⋯══════╗**\n♆ 𝙼𝚢 𝙿𝚒𝚗𝚐  : %sᴍꜱ\n♆ 𝙰𝚌𝚝𝚒𝚟𝚎 𝚝𝚒𝚖𝚎  : {uptime}\n♆ 𝚂𝚎𝚗𝚜𝚎𝚒   : `{ALIVE_NAME}`\n**╚══════⋯⋯⋯⋯⋯══════╝** " % (duration))
+    await pong.edit(f"**ㅤㅤㅤ   𖤍  𝐃𝐄𝐀𝐓𝐇 𝐍𝐎𝐓𝐄  𖤍** \n **🔥 ══━━━━✥◈✥━━━━══ 🔥** \n**╔══════⋯⇋♤⇌⋯══════╗**\n♆ 𝙼𝚢 𝙿𝚒𝚗𝚐  : %sᴍꜱ\n♆ 𝙰𝚌𝚝𝚒𝚟𝚎 𝚝𝚒𝚖𝚎  : {uptime}\n♆ 𝚂𝙷𝙸𝙽𝙸𝙶𝙰𝙼𝙸   : `{ALIVE_NAME}`\n**╚══════⋯⋯⋯⋯⋯══════╝** " % (duration))
 
 
 CMD_HELP.update(
