@@ -1,13 +1,13 @@
 
 
-# ONE PIECE
+# MARSEL PIECE
 <a href="https://cooltext.com"><img src="https://pa1.narvii.com/6556/bfc4a134746479ca5e3a2e1d9411d45c09ab498e_hq.gif" width="800" height="500" alt="ONE PIECE" /></a>
 
 <h3 align="center">Userbot Yang Digunakan Untuk Bersenang-Senang Di Telegram</h3>
 <p align="center">&nbsp;</p>
 
-### Repo One Piece
-Repo Yang Fork [Shadow](https://t.me/RhitoSakai) 
+### Repo Marsel Piece
+Fork And Managed By [Tokai](https://t.me/Insaynn) 
 
 
 ### STRING SESSION REPLIT
@@ -18,18 +18,18 @@ Repo Yang Fork [Shadow](https://t.me/RhitoSakai)
 </p>
 <br>
 
-### or Run you termux
+### Jalankan Di Termux
 ```
 wget https://raw.githubusercontent.com/aldoaprilyan3/One-Piece/One-Piece/terminal_getstring.sh && bash terminal_getstring.sh
 ```
 
 
 
-  ### Read more
+  ### Baca Selengkapnya
 <details>
   <summary><b>KLIK DISINI UNTUK  MENDEPLOY</b></summary>
 
-## CARA DEPLOY? JANGAN MALAS BACA SAYANG ☺
+## Baca Tutorial Deploy Dibawah. Jangan Malas Baca!
 
 ```
 * **[HEROKU](https://www.heroku.com/) Method** 🔧
