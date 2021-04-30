@@ -160,7 +160,7 @@ async def pingme(pong):
     await pong.edit("**𝚂𝚎𝚕𝚎𝚜𝚊𝚒.. **")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**ㅤㅤ 𖤍  𝐃𝐄𝐀𝐓𝐇 𝐍𝐎𝐓𝐄  𖤍** \n **🔥 ══━━━━✥⌛️✥━━━━══ 🔥** \n**╔══════⋯⇋♤⇌⋯══════╗**\n♆ 𝙼𝚢 𝙿𝚒𝚗𝚐  : %sᴍꜱ\n♆ 𝙰𝚌𝚝𝚒𝚟𝚎 𝚝𝚒𝚖𝚎  : {uptime}\n♆ 𝚂𝙷𝙸𝙽𝙸𝙶𝙰𝙼𝙸   : `{ALIVE_NAME}`\n**╚══════⋯⋯⋯⋯⋯══════╝** n\\**🔥 ══━━━━✥⌛️✥━━━━══ 🔥** " % (duration))
+    await pong.edit(f"**ㅤㅤ 𖤍  𝐃𝐄𝐀𝐓𝐇 𝐍𝐎𝐓𝐄  𖤍** \n **🔥 ══━━━━✥⌛️✥━━━━══ 🔥** \n**╔══════⋯⇋♤⇌⋯══════╗**\n♆ 𝙼𝚢 𝙿𝚒𝚗𝚐  : %sᴍꜱ\n♆ 𝙰𝚌𝚝𝚒𝚟𝚎 𝚝𝚒𝚖𝚎  : {uptime}\n♆ 𝚂𝙷𝙸𝙽𝙸𝙶𝙰𝙼𝙸   : `{ALIVE_NAME}`\n**╚══════⋯⋯⋯⋯⋯══════╝** \n**🔥 ══━━━━✥⌛️✥━━━━══ 🔥** " % (duration))
 
 
 CMD_HELP.update(
