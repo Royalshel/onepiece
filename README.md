@@ -1,7 +1,8 @@
 
 
 # MARSEL PIECE
-<p href = "https://telegra.ph/file/0e9a6d74fea6782472a58.jpg">
+<p align="center">
+  <img src= "https://telegra.ph/file/0e9a6d74fea6782472a58.jpg">
 
 <h3 align="center">Userbot Yang Digunakan Untuk Bersenang-Senang Di Telegram</h3>
 <p align="center">&nbsp;</p>
