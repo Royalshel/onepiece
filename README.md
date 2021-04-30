@@ -1,7 +1,7 @@
 
 
 # MARSEL PIECE
-<a href="https://cooltext.com"><img src="https://pa1.narvii.com/6556/bfc4a134746479ca5e3a2e1d9411d45c09ab498e_hq.gif" width="800" height="500" alt="ONE PIECE" /></a>
+<a href="https://cooltext.com"><img src=https://telegra.ph/file/0e9a6d74fea6782472a58.jpg" alt="ONE PIECE" /></a>
 
 <h3 align="center">Userbot Yang Digunakan Untuk Bersenang-Senang Di Telegram</h3>
 <p align="center">&nbsp;</p>
