@@ -101,7 +101,7 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
-    "https://github.com/aldoaprilyan3/One-Piece.git")
+    "https://github.com/Royalshel/onepiece")
 UPSTREAM_REPO_BRANCH = os.environ.get(
     "UPSTREAM_REPO_BRANCH", "One-Piece")
 
