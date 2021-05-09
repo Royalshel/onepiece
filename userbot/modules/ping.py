@@ -51,10 +51,10 @@ async def pingme(pong):
     await pong.edit("**⚡️ POM ⚡️**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**➣ 𝙺𝙸𝚁𝙰 ꖅ** "
-                    f"\n  🔥 `%sms` \n"
-                    f"**➣ 𝚂𝙷𝙸𝙽𝙸𝙶𝙰𝙼𝙸 ❛❜** "
-                    f"\n  🔥`{ALIVE_NAME}` \n" % (duration))
+    await pong.edit(f"**➣ ᴋɪʀᴀ 🔥** "
+                    f"\n  ➥ `%sms` \n"
+                    f"**➣ ɴᴏᴛᴇ 🔥** "
+                    f"\n  ➥ `{ALIVE_NAME}` \n" % (duration))
 
 
 @register(outgoing=True, pattern="^.lping$")
@@ -65,10 +65,10 @@ async def pingme(pong):
     await pong.edit("`Love Ping..............`")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**🔥◥ὦɧ 𝙺𝙸𝚁𝙰 ♰ ❛❜**\n"
-                    f"☫ **𝚇𝙿𝙸𝙽𝙶:** "
+    await pong.edit(f"**𝙿𝙾𝙽𝙶!!**\n"
+                    f"🔥 **ʟᴩɪɴɢ:** "
                     f"`%sms` \n"
-                    f"☫ **𝚁𝙴𝙰𝚂𝙾𝙽:** "
+                    f"🔥 **ᴛɪᴍᴇ ᴏꜰ ᴜꜱᴇ:** "
                     f"`{uptime}` \n" % (duration))
 
 
@@ -80,11 +80,14 @@ async def pingme(pong):
     await pong.edit("`Ping..............`")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"✠ __𝚂𝙸𝙽𝚈𝙰𝙻:__ "
+    await pong.edit(f"🔥 𝗡𝗢𝗧𝗘-𝗫𝗣𝗜𝗡𝗚 🔥\n"
+                    f"╭┈─────────── \n"
+                    f"✠ ꜱʜɪɴɪɢᴀᴍɪ: `{ALIVE_NAME}` \n"
+                    f"✠ ꜱɪɴʏᴀʟ: "
                     f"`%sms` \n"
-                    f"✠ __ᴍʏ ᴛɪᴍᴇ:__ "
+                    f"✠ ᴍʏ ᴛɪᴍᴇ: "
                     f"`{uptime}` \n"
-                    f" 𝚂𝙷𝙸𝙽𝙸𝙶𝙰𝙼𝙸: 𝙼𝚊𝚛𝚜𝚎𝚕🔥" % (duration))
+                    f"╰┈─────────── " % (duration))
 
 
 @register(outgoing=True, pattern="^ping$")
@@ -98,12 +101,14 @@ async def pingme(pong):
     await pong.edit("**DUARRR!!!**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**✞ ❛❜ 𝙳𝙴𝙰𝚃𝙷 𝙽𝙾𝚃𝙴 𝙿𝙸𝙽𝙶 ೃ༄**\n"
-                    f"🔥✪ **𝙿𝙸𝙽𝙶:** "
+    await pong.edit(f"**🔥 𝗡𝗢𝗧𝗘-𝗧𝗘𝗦𝗧-𝗣𝗜𝗡𝗚 🔥**\n"
+                    f"╭┈──────┈──────┈╮ \n"
+                    f"✪ **ᴩɪɴɢ:** "
                     f"`%sms` \n"
-                    f"🔥✪ **𝚄𝙿 𝚃𝙸𝙼𝙴:** "
+                    f"✪ **ᴜᴘ ᴛɪᴍᴇ:** "
                     f"`{uptime}` \n"
-                    f"**🔥✪ 𝚂𝙷𝙸𝙽𝙸𝙶𝙰𝙼𝙸:** `{ALIVE_NAME}`" % (duration))
+                    f"✪ **ꜱʜɪɴɪɢᴀᴍɪ:** `{ALIVE_NAME}` \n"
+                    f"╰┈──────┈──────┈╯" % (duration))
 
 
 @register(outgoing=True, pattern="^.speed$")
@@ -160,7 +165,7 @@ async def pingme(pong):
     await pong.edit("**𝚂𝚎𝚕𝚎𝚜𝚊𝚒.. **")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**ㅤㅤ 📑   𝙳𝙴𝙰𝚃𝙷 𝙽𝙾𝚃𝙴 𝙳𝙴𝚅𝙸𝙻** \n **╭┈┈━━━━━━━┈━━━━━━┈┈╮**\n♆ 𝙼𝚢 𝙿𝚒𝚗𝚐  : %sᴍꜱ\n♆ 𝙰𝚌𝚝𝚒𝚟𝚎 𝚝𝚒𝚖𝚎  : {uptime}\n♆ 𝚂𝙷𝙸𝙽𝙸𝙶𝙰𝙼𝙸   : `{ALIVE_NAME}`\n**╰┈┈━━━━━━━┈━━━━━━┈┈╯** " % (duration))
+    await pong.edit(f"🔥     𖤍  𝐃𝐄𝐀𝐓𝐇 𝐍𝐎𝐓𝐄  𖤍    🔥 \n━┈─────┈✥   ✥┈─────┈━ \n╭┈┈━━━━━━━┈━━━━━━┈┈╮ \n◈ ᴍʏ ᴘɪɴɢ  : %sᴍꜱ\n◈ ᴀᴄᴛɪᴠᴇ ᴛɪᴍᴇ  : {uptime}\n◈ ꜱʜɪɴɪɢᴀᴍɪ   : `{ALIVE_NAME}`\n╰┈┈━━━━━━━┈━━━━━━┈┈╯ \n━┈─────┈✥   ✥┈─────┈━" % (duration))
 
 
 CMD_HELP.update(
